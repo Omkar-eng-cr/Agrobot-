@@ -1,0 +1,76 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f3f4f6;
+  margin: 0;
+  color: #333;
+}
+
+header {
+  background-color: #2e7d32;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  color: #2e7d32;
+}
+
+.controls {
+  margin-top: 2rem;
+}
+
+.btn {
+  border: none;
+  padding: 0.8rem 1.5rem;
+  margin: 0.3rem;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+}
+
+.refresh { background-color: #1976d2; }
+.water { background-color: #0288d1; }
+.scan { background-color: #388e3c; }
+.detect { background-color: #f57c00; }
+.stop { background-color: #d32f2f; }
+
+footer {
+  text-align: center;
+  background: #2e7d32;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
